@@ -1,80 +1,81 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    /* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2;;
-    font-family: Helvetica, Arial, sans-serif;
-  }
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
-  /* apply styles to <header> */
+/* apply styles to <header> */
 header {
-    padding: 10px 35px;
-    background-color: #39a6b2;
-  }
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
-  
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
 
-  header nav {
-    float: right;
-    margin: 7px 0;
-  }
+header nav {
+  float: right;
+  margin: 7px 0;
+}
 
-  header nav ul li {
-    display: inline;
-  }
+header nav ul li {
+  display: inline;
+}
 
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
 
-  footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-  }
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
 
-  footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
 
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-    
-  }
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
 
-  footer a {
-    color: #024e76;
-  }
+footer a {
+  color: #024e76;
+}
+
+section {
+  padding: 60px;
+}
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
-  padding: 20px;
   position: relative;
 }
 /* Hero Style End */
@@ -94,7 +95,6 @@ header {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -120,7 +120,6 @@ header {
   padding: 10px 20px;
   font-size: 16px;
 }
-/* HERO STYLES END */
 
 .intro {
   text-align: center;
@@ -134,9 +133,33 @@ header {
   margin: 0 auto;
 }
 
-.steps { 
+.steps {
   text-align: center;
   background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+}
+
+.steps h3 {
+  color: #024e76;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+
+.steps span {
+  font-size: 38px;
 }
 
 .section-title {
@@ -156,26 +179,49 @@ header {
   border-color: #39a6b2;
 }
 
-.steps div {
-  margin-bottom: 80px;
+.trainers {
+  text-align: center;
 }
 
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-} 
-
-.steps h3 {
-  color: #024e76;
-  font-size: 46px;
-  margin-top: 10px;
+.trainer {
+  width: 900px;
+  margin: 0 auto 30px auto;
+  background: #024e76;
+  color: #fce138;
+  overflow: auto
 }
 
-.steps p {
-  color: #39a6b2;
-  font-size: 23px;
+.trainer img {
+  width: 35%;
+  float: left;
 }
 
-.steps span {
-  font-size: 38px;
+.trainer-bio {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.trainer-bio h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.trainer-bio h4 {
+  font-weight: lighter;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+
+.trainer-bio p {
+  font-size: 17px;
+  line-height: 1.3;
 }
