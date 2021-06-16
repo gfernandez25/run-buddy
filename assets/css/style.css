@@ -188,7 +188,11 @@ section {
   margin: 0 auto 30px auto;
   background: #024e76;
   color: #fce138;
+<<<<<<< HEAD
   overflow: auto;
+=======
+  overflow: auto
+>>>>>>> d579d7f143c367d9701433dccc07579baea0b0e9
 }
 
 .trainer img {
@@ -202,6 +206,17 @@ section {
   width: 65%;
 }
 
+<<<<<<< HEAD
+=======
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+>>>>>>> d579d7f143c367d9701433dccc07579baea0b0e9
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -218,6 +233,7 @@ section {
   line-height: 1.3;
 }
 
+<<<<<<< HEAD
 .text-left {
   text-align: left;
 }
@@ -226,6 +242,8 @@ section {
   text-align: right;
 }
 
+=======
+>>>>>>> d579d7f143c367d9701433dccc07579baea0b0e9
 /* REACH OUT STYLES START */
 .contact {
   text-align: center;
@@ -255,8 +273,12 @@ section {
   font-size: 32px;
 }
 
+<<<<<<< HEAD
 .contact-info p,
 .contact-info address {
+=======
+.contact-info p, .contact-info address {
+>>>>>>> d579d7f143c367d9701433dccc07579baea0b0e9
   margin: 20px 0;
   line-height: 1.5;
   font-size: 20px;
@@ -267,4 +289,8 @@ section {
   color: #fce138;
 }
 
+<<<<<<< HEAD
 /* REACH OUT STYLES END */
+=======
+/* REACH OUT STYLES END */
+>>>>>>> d579d7f143c367d9701433dccc07579baea0b0e9
