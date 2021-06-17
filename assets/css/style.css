@@ -173,20 +173,40 @@ section {
 .step h3 {
   color: #024e76;
   font-size: 46px;
+  flex: 1 30%;
   
 }
 
 .step-text p {
   color: #39a6b2;
   font-size: 18px;
+  flex: 12;
 }
 
 .step-text h4 {
   font-size: 26px;
   line-height: 1.5;
   color: #024e76;
+  flex: 12;
 }
 
+.step-info{
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
 
 .section-title {
   font-size: 55px;
@@ -195,8 +215,7 @@ section {
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
-
-width: 50%;
+  width: 50%;
 }
 
 .primary-border {
